@@ -5,9 +5,34 @@
 }
 
 #github-container {
-  display: flex;
+  display: block;
 }
 
 ul {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 35vh;
+  overflow: auto;
+}
+
+#repos-list {
+  display: block;
+  justify-content: center;
+}
+
+.result-li {
+  margin: 3vw;
+}
+
+.profile-img {
+  max-height: 75px;
+  width: auto;
+}
+
+.username {
+  font-weight: 500;
+  font-size: 1.5em;
 }
