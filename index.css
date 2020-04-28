@@ -11,3 +11,16 @@
 ul {
   list-style: none;
 }
+
+.avatar {
+  max-height: 40px;
+  width: auto;
+}
+
+.url {
+  font-size: 12px;
+}
+
+.username {
+  font-size: 30px;
+}
